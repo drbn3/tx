@@ -1,0 +1,2 @@
+import '@nomiclabs/hardhat-etherscan';
+import 'hardhat-typechain';
