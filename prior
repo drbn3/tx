@@ -2,3 +2,6 @@
     DUMMY_VERIFIER: true,
     ZKSYNC_ADDRESS: process.env.CONTRACTS_CONTRACT_ADDR,
     NEW_ADDITIONAL_ZKSYNC_ADDRESS: process.en
+localConfig.UPGRADE_NOTICE_PERIOD = 0;
+localConfig.DUMMY_VERIFIER = process.env.CONTRACTS_TEST_DUMMY_VERIFIER === 'true';
+// @ts-ignore
