@@ -1,3 +1,6 @@
 const testConfig = {
     UPGRADE_NOTICE_PERIOD: 0,
     MAX_AMOUNT_OF_REGISTERED_TOKENS: 5,
+localConfig.UPGRADE_NOTICE_PERIOD = 0;
+localConfig.DUMMY_VERIFIER = process.env.CONTRACTS_TEST_DUMMY_VERIFIER === 'true';
+// @ts-ignore
