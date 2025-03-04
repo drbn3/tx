@@ -3,4 +3,4 @@ const testnetConfig = {
     MAX_AMOUNT_OF_REGISTERED_TOKENS: 1023
 localConfig.UPGRADE_NOTICE_PERIOD = 0;
 localConfig.DUMMY_VERIFIER = process.env.CONTRACTS_TEST_DUMMY_VERIFIER === 'true';
-// @ts-ignore
+
