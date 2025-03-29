@@ -1,1 +1,2 @@
 readme.cfg
+readme.txt
